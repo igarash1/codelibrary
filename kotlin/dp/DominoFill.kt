@@ -1,8 +1,5 @@
 package dp
 
-import numeric.FFT
-import optimization.Simplex
-
 object DominoFill {
     /**
      * .....

@@ -1,8 +1,5 @@
 package misc
 
-import numeric.FFT
-import optimization.Simplex
-
 object ArrayRotate {
     fun rotate1(a: IntArray, first: Int, middle: Int, last: Int) {
         var first = first

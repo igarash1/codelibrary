@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 // https://en.wikipedia.org/wiki/Disjoint-set_data_structure with path compression heuristic
 // Complexity of operations is O(log(n)) on average
 object DisjointSets {

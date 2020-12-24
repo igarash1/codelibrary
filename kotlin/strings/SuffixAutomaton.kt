@@ -1,8 +1,5 @@
 package strings
 
-import numeric.FFT
-import optimization.Simplex
-
 // https://en.wikipedia.org/wiki/Suffix_automaton
 object SuffixAutomaton {
     fun buildSuffixAutomaton(s: CharSequence): Array<State> {

@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 // https://en.wikipedia.org/wiki/Quadtree
 class QuadTree {
     class Node {

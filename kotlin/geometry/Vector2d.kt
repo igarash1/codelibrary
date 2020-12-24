@@ -1,8 +1,5 @@
 package geometry
 
-import numeric.FFT
-import optimization.Simplex
-
 class Vector2d(var x: Double, var y: Double) {
     fun conj(): Vector2d {
         return Vector2d(x, -y)

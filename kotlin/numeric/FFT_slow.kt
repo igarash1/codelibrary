@@ -1,8 +1,5 @@
 package numeric
 
-import numeric.FFT
-import optimization.Simplex
-
 // Fast Fourier transform
 // https://cp-algorithms.com/algebra/fft.html
 object FFT_slow {

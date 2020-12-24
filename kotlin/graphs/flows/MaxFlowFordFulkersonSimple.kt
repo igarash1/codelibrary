@@ -1,8 +1,5 @@
 package graphs.flows
 
-import numeric.FFT
-import optimization.Simplex
-
 // https://en.wikipedia.org/wiki/Ford–Fulkerson_algorithm in O(V^2 * flow)
 object MaxFlowFordFulkersonSimple {
     fun maxFlow(cap: Array<IntArray>, s: Int, t: Int): Int {

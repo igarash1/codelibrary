@@ -1,8 +1,5 @@
 package misc
 
-import numeric.FFT
-import optimization.Simplex
-
 object MaximumZeroSubmatrix {
     fun maximumZeroSubmatrix(a: Array<IntArray>): Int {
         val R = a.size

@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 class DisjointSetsRank(size: Int) {
     var p: IntArray
     var rank: IntArray

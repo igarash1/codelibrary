@@ -1,8 +1,5 @@
 package graphs.spanningtree
 
-import numeric.FFT
-import optimization.Simplex
-
 object SteinerTree {
     fun minLengthSteinerTree(g: Array<IntArray>, verticesToConnect: IntArray): Int {
         val n = g.size

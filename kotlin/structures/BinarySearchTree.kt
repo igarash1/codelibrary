@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 class BinarySearchTree {
     var root: Node? = null
 

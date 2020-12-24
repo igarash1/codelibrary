@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 // https://en.wikipedia.org/wiki/R-tree
 class RTree(segments: Array<Segment?>) {
     class Segment(val x1: Int, val y1: Int, val x2: Int, val y2: Int)

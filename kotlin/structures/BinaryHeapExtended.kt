@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 // https://en.wikipedia.org/wiki/Binary_heap
 // invariant: heap[parent] <= heap[child]
 class BinaryHeapExtended(n: Int) {

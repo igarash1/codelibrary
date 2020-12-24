@@ -1,8 +1,5 @@
 package parsing
 
-import numeric.FFT
-import optimization.Simplex
-
 object RecursiveDescentParser {
     fun main(args: Array<String?>?) {
         val lexer = Lexer("{ a = 10; do { a = a - 2;}  while (3 < a); }")

@@ -1,8 +1,5 @@
 package misc
 
-import numeric.FFT
-import optimization.Simplex
-
 object BinarySearch {
     // 000[1]11
     // warning: overflows in lines 1-4

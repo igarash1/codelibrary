@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 class DoublyLinkedList(maxSize: Int) {
     var next: IntArray
     var prev: IntArray

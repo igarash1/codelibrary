@@ -1,8 +1,5 @@
 package graphs.spanningtree
 
-import numeric.FFT
-import optimization.Simplex
-
 // https://en.wikipedia.org/wiki/Prim%27s_algorithm in O(E*log(V))
 object PrimHeap {
     fun mst(edges: Array<List<Edge>?>, pred: IntArray): Long {

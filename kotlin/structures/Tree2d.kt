@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 class Tree2d(n: Int) {
     var t: Array<Treap.Node?>
     fun query(x1: Int, x2: Int, y1: Int, y2: Int): Long {

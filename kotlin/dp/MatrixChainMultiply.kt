@@ -1,8 +1,5 @@
 package dp
 
-import numeric.FFT
-import optimization.Simplex
-
 object MatrixChainMultiply {
     fun solveIterative(s: IntArray): Int {
         val n = s.size - 1

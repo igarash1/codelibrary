@@ -1,8 +1,5 @@
 package sort
 
-import numeric.FFT
-import optimization.Simplex
-
 object Quicksort {
     var rnd: Random = Random()
     fun quickSort(a: IntArray, low: Int, high: Int) {

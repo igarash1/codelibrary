@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 // https://cp-algorithms.com/data_structures/stack_queue_modification.html
 class QueueMin {
     var s1: List<Integer> = ArrayList()

@@ -1,8 +1,5 @@
 package misc
 
-import numeric.FFT
-import optimization.Simplex
-
 object AllNearestSmallerValues {
     // https://en.wikipedia.org/wiki/All_nearest_smaller_values
     fun nsv(a: IntArray): IntArray {

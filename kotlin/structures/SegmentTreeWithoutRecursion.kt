@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 object SegmentTreeWithoutRecursion {
     operator fun get(t: IntArray, i: Int): Int {
         return t[i + t.size / 2]

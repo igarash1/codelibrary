@@ -1,8 +1,5 @@
 package strings
 
-import numeric.FFT
-import optimization.Simplex
-
 // https://en.wikipedia.org/wiki/Aho–Corasick_algorithm
 class AhoCorasick {
     val ALPHABET_SIZE = 26

@@ -1,8 +1,5 @@
 package parsing
 
-import numeric.FFT
-import optimization.Simplex
-
 class Calc2 {
     enum class TOKEN {
         PLUS, MINUS, MUL, DIV, NUMBER, LP, RP, END, FUNCTION

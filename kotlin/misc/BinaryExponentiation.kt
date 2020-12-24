@@ -1,8 +1,5 @@
 package misc
 
-import numeric.FFT
-import optimization.Simplex
-
 // https://en.wikipedia.org/wiki/Exponentiation_by_squaring
 object BinaryExponentiation {
     fun pow(x: Int, n: Int, mod: Int): Int {

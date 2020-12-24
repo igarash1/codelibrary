@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 // https://www.hackerearth.com/notes/mos-algorithm/
 // Solution of http://www.spoj.com/problems/DQUERY/en/
 object MosAlgorithm {

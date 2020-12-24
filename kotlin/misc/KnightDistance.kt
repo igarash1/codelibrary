@@ -1,8 +1,5 @@
 package misc
 
-import numeric.FFT
-import optimization.Simplex
-
 object KnightDistance {
     fun dist(x1: Int, y1: Int, x2: Int, y2: Int): Int {
         val dx: Int = Math.abs(x2 - x1)

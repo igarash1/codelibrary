@@ -1,8 +1,5 @@
 package numeric
 
-import numeric.FFT
-import optimization.Simplex
-
 class Fraction(a: Long, b: Long) : Comparable<Fraction?> {
     var a: Long
     var b: Long

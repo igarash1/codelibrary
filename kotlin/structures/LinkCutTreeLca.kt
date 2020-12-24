@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 // Based on Daniel Sleator's implementation http://www.codeforces.com/contest/117/submission/860934
 object LinkCutTreeLca {
     fun connect(ch: Node?, p: Node?, isLeftChild: Boolean?) {

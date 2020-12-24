@@ -1,8 +1,5 @@
 package misc
 
-import numeric.FFT
-import optimization.Simplex
-
 object Inversions {
     // warning: a is modified during processing
     fun inversions(a: IntArray, low: Int, high: Int): Long {

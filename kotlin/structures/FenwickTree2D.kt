@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 object FenwickTree2D {
     fun add(t: Array<IntArray>, r: Int, c: Int, value: Int) {
         var i = r

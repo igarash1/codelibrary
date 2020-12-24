@@ -1,8 +1,5 @@
 package strings
 
-import numeric.FFT
-import optimization.Simplex
-
 object LyndonDecomposition {
     fun minCyclicShift(a: String): String {
         val s: CharArray = (a + a).toCharArray()

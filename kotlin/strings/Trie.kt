@@ -1,8 +1,5 @@
 package strings
 
-import numeric.FFT
-import optimization.Simplex
-
 // https://en.wikipedia.org/wiki/Trie
 object Trie {
     fun insertString(root: TrieNode?, s: String) {

@@ -1,8 +1,5 @@
 package strings
 
-import numeric.FFT
-import optimization.Simplex
-
 class AhoCorasickSimple {
     var prefixes: Array<String>
     fun buildAutomata(words: Array<String>): Array<IntArray> {

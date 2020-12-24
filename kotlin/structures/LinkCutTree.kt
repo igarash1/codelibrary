@@ -1,8 +1,5 @@
 package structures
 
-import numeric.FFT
-import optimization.Simplex
-
 // LinkCut tree with path queries. Query complexity is O(log(n)) amortized.
 // Based on Daniel Sleator's implementation http://www.codeforces.com/contest/117/submission/860934
 object LinkCutTree {
