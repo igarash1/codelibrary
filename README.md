@@ -3,6 +3,9 @@
 [![C++ CI](https://github.com/indy256/codelibrary/workflows/C++%20CI/badge.svg)](https://github.com/indy256/codelibrary/actions?query=workflow%3A%22C%2B%2B+CI%22)
 [![License](https://img.shields.io/badge/license-UNLICENSE-green.svg)](https://github.com/indy256/codelibrary/blob/master/UNLICENSE)
 
+## [codelibrary](https://github.com/indy256/codelibrary) in Kotlin(automatically converted by IDEA)
+*Many of them haven't been verified. Please refer to the original java versions if you have any trouble.*
+
 ### Collection of algorithms and data structures in C++ and Java
 
 #### Data structures
