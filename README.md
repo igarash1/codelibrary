@@ -5,7 +5,9 @@
 
 ## [codelibrary](https://github.com/indy256/codelibrary) in Kotlin(automatically converted by IDEA)
 **Many of them haven't been verified. Please refer to the original java versions if you have any trouble.**
-Many thanks to the original author of java version, [indy256](https://github.com/indy256).
+
+**Many thanks to the original author of codelibrary, [indy256](https://github.com/indy256).**
+
 
 ### Collection of algorithms and data structures in C++ and Java
 
@@ -40,14 +42,14 @@ Many thanks to the original author of java version, [indy256](https://github.com
 + [x] Mo's algorithm with point updates [**c++**](cpp/structures/mos_with_updates.cpp)
 
 #### Graph algorithms
-+ [x] Shortest paths [**c++**](cpp/graphs/shortestpaths) [**java**](java/graphs/shortestpaths)
-+ [x] Maximum flow [**c++**](cpp/graphs/flows) [**java**](java/graphs/flows)
-+ [x] Maximum matching [**c++**](cpp/graphs/matchings) [**java**](java/graphs/matchings)
-+ [x] Spanning tree [**c++**](cpp/graphs/spanningtree) [**java**](java/graphs/spanningtree)
-+ [x] Connectivity [**c++**](cpp/graphs/dfs) [**java**](java/graphs/dfs)
++ [x] Shortest paths [c++](cpp/graphs/shortestpaths) [java](java/graphs/shortestpaths) [**kotlin**](kotlin/graphs/shortestpaths)
++ [x] Maximum flow [c++](cpp/graphs/flows) [java](java/graphs/flows) [**kotlin**](kotlin/graphs/flows)
++ [x] Maximum matching [c++](cpp/graphs/matchings) [java](java/graphs/matchings) [**kotlin**](kotlin/graphs/matchings)
++ [x] Spanning tree [c++](cpp/graphs/spanningtree) [java](java/graphs/spanningtree) [**kotlin**](kotlin/graphs/spanningtree)
++ [x] Connectivity [c++](cpp/graphs/dfs) [java](java/graphs/dfs) [**kotlin**](kotlin/graphs/dfs)
 + [x] Biconnectivity [java](java/graphs/dfs/Biconnectivity.java) [**kotlin**](kotlin/graphs/dfs/Biconnectivity.kt)
 + [x] LCA Schieber-Vishkin algorithm [c++](cpp/graphs/lca/lca_rmq_schieber_vishkin.cpp) [java](java/graphs/lca/LcaSchieberVishkin.java) [**kotlin**](kotlin/graphs/lca/LcaSchieberVishkin.kt)
-+ [x] LCA [**java**](java/graphs/lca)
++ [x] LCA [java](java/graphs/lca) [**kotlin**](kotlin/graphs/lca)
 + [ ] Planarity testing ([contribute a link or implementation](https://github.com/indy256/codelibrary/issues/28))
 + [ ] Dynamic graph connectivity ([contribute a link or implementation](https://github.com/indy256/codelibrary/issues/29))
 + [ ] Chu–Liu/Edmonds' algorithm ([contribute a link or implementation](https://github.com/indy256/codelibrary/issues/30))
@@ -66,7 +68,7 @@ Many thanks to the original author of java version, [indy256](https://github.com
 + [x] Trie [java](java/strings/Trie.java) [**kotlin**](kotlin/strings/Trie.kt)
 + [x] Z-function [c++](cpp/strings/z-function.cpp) [java](java/strings/ZFunction.java) [**kotlin**](kotlin/strings/ZFunction.kt)
 + [x] Hashing [c++](cpp/strings/hashing.cpp) [java](java/strings/Hashing.java) [**kotlin**](kotlin/strings/Hashing.kt)
-+ [x] Parsing [**java**](java/parsing) [**c++**](cpp/parsing)
++ [x] Parsing [java](java/parsing) [c++](cpp/parsing) [**kotlin**](kotlin/parsing)
 + [ ] Palindrome tree ([contribute a link or implementation](https://github.com/indy256/codelibrary/issues/34))
 + [ ] Sorting strings in linear time ([contribute a link or implementation](https://github.com/indy256/codelibrary/issues/31))
 
@@ -123,4 +125,3 @@ Many thanks to the original author of java version, [indy256](https://github.com
 + [x] Gaussian elimination [c++](cpp/linearalgebra/gauss.cpp) [java](java/linearalgebra/Gauss.java) [kotlin](kotlin/Gauss.kt) [**kotlin**](kotlin/linearalgebra/Gauss.kt)
 + [x] Determinant calculation [java](java/linearalgebra/Determinant.java) [**kotlin**](kotlin/linearalgebra/Determinant.kt)
 + [x] Matrix operations [c++](cpp/linearalgebra/matrix.h) [java](java/linearalgebra/Matrix.java) [**kotlin**](kotlin/linearalgebra/Matrix.kt)
-
