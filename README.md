@@ -3,13 +3,14 @@
 [![C++ CI](https://github.com/indy256/codelibrary/workflows/C++%20CI/badge.svg)](https://github.com/indy256/codelibrary/actions?query=workflow%3A%22C%2B%2B+CI%22)
 [![License](https://img.shields.io/badge/license-UNLICENSE-green.svg)](https://github.com/indy256/codelibrary/blob/master/UNLICENSE)
 
-## [codelibrary](https://github.com/indy256/codelibrary) in Kotlin(automatically converted by IDEA)
-**Many of them haven't been verified. Please refer to the original java versions if you have any trouble.**
+## [codelibrary](https://github.com/indy256/codelibrary) in **Kotlin**.
 
-**Many thanks to the original author of codelibrary, [indy256](https://github.com/indy256).**
+### Most of them have been automatically converted by IDEA and haven't been verified. Please refer to the original java versions if you have any trouble.
+
+### Many thanks to the original author of codelibrary, [indy256](https://github.com/indy256).
 
 
-### Collection of algorithms and data structures in C++ and Java
+### Collection of algorithms and data structures in C++, Java, and **Kotlin**
 
 #### Data structures
 + [x] Segment tree [c++](cpp/structures/segment_tree.h) [java](java/structures/SegmentTree.java) [kotlin](kotlin/SegmentTree.kt) [**kotlin**](kotlin/structures/SegmentTree.kt)
