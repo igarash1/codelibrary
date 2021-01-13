@@ -32,7 +32,6 @@ object Dijkstra {
     }
 
     // Usage example
-    @JvmStatic
     fun main(args: Array<String>) {
         val cost = arrayOf(intArrayOf(0, 3, 2), intArrayOf(0, 0, -2), intArrayOf(0, 0, 0))
         val n = cost.size

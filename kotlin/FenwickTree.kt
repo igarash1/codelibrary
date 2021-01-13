@@ -43,7 +43,6 @@ object FenwickTree {
     }
 
     // Usage example
-    @JvmStatic
     fun main(args: Array<String>) {
         val t1 = IntArray(10)
         add(t1, 0, 1)

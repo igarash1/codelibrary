@@ -37,7 +37,6 @@ object PersistentTree {
     }
 
     // Usage example
-    @JvmStatic
     fun main(args: Array<String>) {
         val n = 10
         val t1 = build(0, n - 1)
